@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto';
+}
+.logo img{
+    width: 20%;
+}
+ .btn_header{
+  display: flex;
+  justify-content:flex-end;
+}
+.btn_header p{
+  margin:10px 20px;
+  color: white;
+  border-radius:10px ;
+  padding: 5px 20px;
+}
+.p{
+  background-color: green;
+}
+.p1{
+  background-color: chocolate;
+} 
+/* menu bar */
+.mm{
+  display: none;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 1);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  margin-top: 20px;
+}
+.btn_header a{
+  text-decoration: none;
+}
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.c2{
+  display: none;
+}
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+.overlay .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 30px;
+}
+hr{
+  border: 1px solid green;
+}
+/* //menu */
+.A ul {
+  list-style-type: none;
+}
+.A ul li{
+  display: inline-block;
+}
+.A ul li a{
+  text-decoration: none;
+  display: block;
+  font-size: 15px;
+  color:green;
+  padding:10px 10px;
+}
+.A ul li:hover a{
+  color: red;
+}
+.st{
+  font-size: 25px;
+}
+.tc hr{
+  margin: auto;
+ width: 40%;
+}
+.btn_header1 img{
+  width: 10%;
+}
+.cdn{
+  overflow: hidden;
+}
+.B img{
+  width: 80%;
+  border-radius: 15px;
+  transition: all .5s;
+  transform: scale(.9);
+  border: 2px solid red;
+}
+.B{
+  margin: 10px 0px;
+}
+.B:hover img{
+  transform: scale(1);
+}
+p{
+  color: black;
+  font-size: 15px;
+}
+img{
+  width: 80%;
+}
+.s{
+  font-size: 18px;
+}
+.slide {
+  display:flex;
+  justify-content: center;
+}
+.g img{
+  width: 30%;
+}
+.f img{
+  width: 50%;
+}
+.icon img{
+  width: 30%;
+}
+.ft{
+  font-size: 18px;
+  color: white;
+}
+body{
+  background: rgb(246, 228, 228);
+}
+
